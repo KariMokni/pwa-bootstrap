@@ -2,29 +2,29 @@
     "theme_color": "#dc8633",
     "background_color": "#eba576",
     "display": "standalone",
-    "scope": "https://karimokni.github.io/pwa-bootstrap/labo2",
-    "start_url": "https://karimokni.github.io/pwa-bootstrap/labo2",
+    "scope": "https://karimokni.github.io/pwa-bootstrap/",
+    "start_url": "https://karimokni.github.io/pwa-bootstrap/",
     "name": "Djerba",
     "short_name": "d2022",
     "description": "lab2_app_install",
     "icons": [
         {
-            "src": "/icon-192x192.png",
+            "src": "assets/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/icon-256x256.png",
+            "src": "assets/icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/icon-384x384.png",
+            "src": "assets/icon-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "/icon-512x512.png",
+            "src": "assets/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
