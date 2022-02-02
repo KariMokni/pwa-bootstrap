@@ -32,7 +32,7 @@ window.addEventListener("beforeinstallprompt", (e) => {
 
 function installApp() {
   console.log("fonctionne");
-  const fenetre = document.getElementById("toast");
+  const fenetre = document.getElementById("mytoast");
   const toast = new bootstrap.Toast(fenetre, { delay: 5000 }); //affichée 5 secondes
   toast.show();
 }
