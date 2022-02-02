@@ -25,7 +25,7 @@ window.addEventListener("beforeinstallprompt", (e) => {
   // bouton installer
   appButton.addEventListener("click", function () {
     deferredPrompt.prompt();
-  });
+  })
 });
 
 // informer l'utilisateur de la possibilité d'installer pwa
@@ -33,6 +33,8 @@ window.addEventListener("beforeinstallprompt", (e) => {
 function installApp() {
   console.log("fonctionne");
   const fenetre = document.getElementById("mytoast");
-  const toast = new bootstrap.Toast(fenetre, { delay: 5000 }); //affichée 5 secondes
+  const toast = new bootstrap.Toast(fenetre, {
+    delay: 5000
+  }); //affichée 5 secondes
   toast.show();
 }
