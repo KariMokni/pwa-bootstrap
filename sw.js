@@ -5,6 +5,7 @@ this.addEventListener("install", function (event) {
       console.log("[Service Worker] Mise en cache");
       return cache.addAll([
         "index.html",
+        "index.css",
         "index.js",
         "assets/icon-192x192.png",
         "assets/icon-256x256.png",
