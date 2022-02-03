@@ -37,4 +37,4 @@ function installApp() {
     delay: 5000
   }); //affichée 5 secondes
   toast.show();
-}
+};
