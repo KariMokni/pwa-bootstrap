@@ -21,15 +21,25 @@
   <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 
   <main>
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="mytoast">
+    <!-- <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="mytoast">
       <div class="toast-header">
         <img src="assets/icon-192x192.png" class="rounded me-2" alt="...">
         <strong class="me-auto">Djerba</strong>
-        <small class="text-muted">Djerba</small>
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
       <div class="toast-body">
         Hello, ça marche.
+      </div>
+    </div> -->
+    <div class="position-fixed center-0">
+      <div class="toast bg-black " role="alert" aria-live="assertive" aria-atomic="true" id="mytoast">
+        <div class="toast-header">
+          <strong class="me-auto">Installation</strong>
+        </div>
+        <div class="toast-body d-grid gap-2 col-6 mx-auto">
+          <button type="button" class="btn btn-primary btn-sm" id="appButton">Oui</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Non</button>
+        </div>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
